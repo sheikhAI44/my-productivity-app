@@ -4,8 +4,6 @@ This server layout provides a sidebar and breadcrumb navigation for the todo rou
 </ai_context>
 */
 
-"use server"
-
 import { AppSidebar } from "@/components/sidebar/app-sidebar"
 import {
   Breadcrumb,
@@ -22,7 +20,7 @@ import {
   SidebarTrigger
 } from "@/components/ui/sidebar"
 
-export default async function TodoLayout({
+export default function TodoLayout({
   children
 }: {
   children: React.ReactNode

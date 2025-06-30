@@ -4,7 +4,7 @@ import NotionWorkspaceLayout from "@/components/layouts/notion-workspace-layout"
 import BlockEditor from "@/components/blocks/BlockEditor"
 import { llmContent } from "@/lib/content/llm-content"
 
-export default async function HomePage() {
+export default async function LLMPage() {
   return (
     <NotionWorkspaceLayout title="LLM Guide" lastEdited="Dec 18">
       <div className="mb-6">

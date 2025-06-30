@@ -61,6 +61,6 @@ NEXT_PUBLIC_POSTHOG_HOST=
 ## Setup
 
 1. Clone the repository
-2. Copy `.env.example` to `.env.local` and fill in the environment variables from above
+2. Create a `.env.local` file in the root directory and add the environment variables from above
 3. Run `npm install` to install dependencies
 4. Run `npm run dev` to run the app locally
